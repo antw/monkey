@@ -2,9 +2,10 @@ package parser
 
 import (
 	"fmt"
-	"monkey/ast"
-	"monkey/lexer"
 	"testing"
+
+	"github.com/antw/monkey/ast"
+	"github.com/antw/monkey/lexer"
 )
 
 func checkParserErrors(t *testing.T, p *Parser) {

@@ -3,8 +3,9 @@ package object
 import (
 	"bytes"
 	"fmt"
-	"monkey/ast"
 	"strings"
+
+	"github.com/antw/monkey/ast"
 )
 
 type ObjectType string

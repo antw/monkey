@@ -2,10 +2,11 @@ package parser
 
 import (
 	"fmt"
-	"monkey/ast"
-	"monkey/lexer"
-	"monkey/token"
 	"strconv"
+
+	"github.com/antw/monkey/ast"
+	"github.com/antw/monkey/lexer"
+	"github.com/antw/monkey/token"
 )
 
 const (
